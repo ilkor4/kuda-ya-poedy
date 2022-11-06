@@ -1,0 +1,9 @@
+.footer__separator {
+  background-color: #fff;
+  width: 4px;
+  transform: rotate(90deg);
+  height: 0;
+  display: block;
+  margin: 0 6px 0 0;
+  transition: height 0.3s ease 0.9s, transform 0.3s ease 0.6s;
+}

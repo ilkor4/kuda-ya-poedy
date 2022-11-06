@@ -1,0 +1,6 @@
+.footer__column-right {
+  width: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}

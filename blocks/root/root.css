@@ -1,0 +1,8 @@
+.root {
+  padding-top: 55px;
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 1440px;
+  color: black;
+  font-family: "Inter";
+}

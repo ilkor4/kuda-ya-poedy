@@ -1,0 +1,5 @@
+.quotes__table {
+  margin: 130px 0 0 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}

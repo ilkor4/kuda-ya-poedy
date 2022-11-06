@@ -1,0 +1,7 @@
+.place__description {
+  background-color: #f2f2f2;
+  padding: 45px 15px 95px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

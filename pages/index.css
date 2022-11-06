@@ -1,0 +1,59 @@
+/* Подключил шрифты */
+@import url(../vendor/fonts/fonts.css);
+
+/* Подключил normalize */
+@import url(../vendor/normalize.css);
+
+/* Подключил стили к странице */
+@import url(../blocks/root/root.css);
+
+/* Подключил стили к шапке */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/_margin/header_margin_auto.css);
+@import url(../blocks/list/list.css);
+@import url(../blocks/navbar/navbar.css);
+@import url(../blocks/margin-left/margin-left.css);
+@import url(../blocks/navbar/__link/navbar__link.css);
+
+/* Подключил стили к контенту */
+@import url(../blocks/content/content.css);
+
+/* Подключил стили к секции intro */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/description/description.css);
+@import url(../blocks/description//__subtitle/description__subtitle.css);
+@import url(../blocks/description/__title/description__title.css);
+@import url(../blocks/intro/__picture/intro__picture.css);
+@import url(../blocks/intro/__image/intro__image.css);
+
+/* Подключил стили к секции places */
+@import url(../blocks/scale/scale.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__picture/place__picture.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__decription/place__description.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+
+
+/* Подключил стили к секции quotes */
+@import url(../blocks/quotes/quotes.css);
+@import url(../blocks/quotes/__table/quotes__table.css);
+@import url(../blocks/quotes/__cell/quotes__cell.css);
+@import url(../blocks/quotes/__cell/_active/quotes__cell_active.css);
+@import url(../blocks/quotes/__author/quotes__author.css);
+@import url(../blocks/quotes/__text/quotes__text.css);
+
+/* Подключил стили к секции footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__column-right/footer__column-right.css);
+@import url(../blocks/footer/__column-left/footer__column-left.css);
+@import url(../blocks/footer/__year/footer__year.css);
+@import url(../blocks/footer/__year/_active/footer__year_active.css);
+@import url(../blocks/footer/__authors/footer__authors.css);
+@import url(../blocks/footer/__authors/_active/footer__authors_active.css);
+@import url(../blocks/footer/__separator/footer__separator.css);
+@import url(../blocks/footer/__separator/_active/footer__separator_active.css);
+@import url(../blocks/footer/__button/footer__button.css);

@@ -1,0 +1,5 @@
+.quotes__cell {
+  max-width: 250px;
+  opacity: 0;
+  transform: translateY(20px);
+}

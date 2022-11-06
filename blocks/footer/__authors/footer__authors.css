@@ -1,0 +1,14 @@
+.footer__authors {
+  margin: 0;
+  padding: 0;
+  font-family: Calibri;
+  font-size: 2.8rem;
+  line-height: 0.8;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #333;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-out;
+}

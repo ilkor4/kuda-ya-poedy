@@ -1,0 +1,4 @@
+.footer__year_active {
+  transform: translateX(0);
+  transition: transform 0.6s ease-out 0.8s;
+}

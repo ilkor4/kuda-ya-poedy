@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head><!--Голова-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Website about places for traveling.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Куда поехать, мечты, ожидания, реальность, лес, горы, море">
+  <meta name="authors" content="Il.kor&Gorilla.dev">
+  <link rel="stylesheet" href="./pages/index.css">
+  <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+  <title>Куда я поеду</title>
+</head>
+<body><!--Тело-->
+  <div class="wrapper"><!--Обертка-->
+    <div class="root"><!--Страница-->
+      <header class="header"><!--Шапка-->
+        <nav>
+          <ul class="navbar list">
+            <li><a href="#" class="navbar__link" target="_blank">Мечты</a></li>
+            <li><a href="#" class="navbar__link" target="_blank">Ожидания</a></li>
+            <li><a href="#" class="navbar__link" target="_blank">Реальность</a></li>
+            <li class="margin-left"><a href="#" class="navbar__link" target="_blank">Пожаловаться</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="content"><!--Контент-->
+        <section class="intro"><!--Секция intro-->
+          <div class="description">
+            <p class="description__subtitle">Куда я&nbsp;поеду</p>
+            <h1 class="description__title">Куда я&nbsp;поеду сразу, как можно будет куда-то поехать</h1>
+          </div>
+          <picture class="intro__picture">
+            <source srcset="./images/intro-image-mob.jpg" media="(max-width: 568px)">
+            <img src="./images/intro-image-desktop.jpg" alt="Крыло самолета на фоне облаков" class="intro__image">
+          </picture>
+        </section>
+        <section aria-label="places"></section><!--Секция places-->
+          <ul class="places list">
+            <li class="place"><!--Место – лес-->
+              <picture class="place__picture">
+                <source srcset="./images/places-forest-mob.jpg" media="(max-width: 568px)">
+                <img src="./images/places-forest-desktop.jpg" alt="Лес" class="place__image">
+              </picture>
+              <div class="place__description">
+                <h2 class="place__title">Поеду в&nbsp;лес</h2>
+                <p class="place__paragraph">Лес&nbsp;&mdash; экологическая система, биоценоз, в&nbsp;которой главной жизненной формой являются деревья.</p>
+                <p class="place__paragraph">Лес&nbsp;&mdash; составная часть природы, понятие &laquo;лес&raquo; можно рассматривать на&nbsp;разных уровнях. В&nbsp;глобальном масштабе&nbsp;&mdash; это часть биосферы, в&nbsp;локальном&nbsp;&mdash; это может быть насаждение. Леса занимают около трети площади суши.</p>
+              </div>
+            </li>
+            <li class="place"><!--Место – горы-->
+              <div class="place__description">
+                <h2 class="place__title">Поеду в&nbsp;горы</h2>
+                <p class="place__paragraph">Горные системы занимают 64&nbsp;% поверхности Азии, 36&nbsp;%&nbsp;&mdash; Северной Америки, 25&nbsp;%&nbsp;&mdash; Европы, 22&nbsp;%&nbsp;&mdash; Южной Америки, 17&nbsp;%&nbsp;&mdash; Австралии и&nbsp;3&nbsp;%&nbsp;&mdash; Африки. В&nbsp;целом 24&nbsp;% земной поверхности приходится на&nbsp;горы.&nbsp;10&nbsp;% всех людей живёт на&nbsp;территории гор. В&nbsp;горах берёт своё начало большинство рек Земли.</p>
+              </div>
+              <picture class="place__picture">
+                <source srcset="./images/places-mountains-mob.jpg" media="(max-width: 568px)">
+                <img src="./images/places-mountains-desktop.jpg" alt="Горы" class="place__image">
+              </picture>
+            </li>
+            <li class="place"><!--Место – Чёрное море-->
+              <picture class="place__picture">
+                <source srcset="./images/places-black-sea-mob.jpg" media="(max-width: 568px)">
+                <img src="./images/places-black-sea-desktop.jpg" alt="Чёрное моря" class="place__image">
+              </picture>
+              <div class="place__description">
+                <h2 class="place__title">Поеду на&nbsp;Чёрное море</h2>
+                <p class="place__paragraph">Я&nbsp;уплыву туда, где ни&nbsp;разу я&nbsp;не&nbsp;был, туда, где никто раньше не&nbsp;был. Никто и&nbsp;никогда раньше не&nbsp;был, я&nbsp;уплыву. Я&nbsp;позову тебя смотреть на&nbsp;синее небо и&nbsp;пить по&nbsp;капле синее небо, и&nbsp;падать в&nbsp;это синее небо, я&nbsp;позову.</p>
+                <p class="place__paragraph">Уеду я&nbsp;на&nbsp;Чёрное-Чёрное море, на&nbsp;Чёрное-Чёрное море, на&nbsp;Чёрное-Чёрное море уеду&nbsp;я. Уеду я&nbsp;на&nbsp;Чёрное-Чёрное море, на&nbsp;Чёрное-Чёрное море, на&nbsp;Чёрное-Чёрное море.</p>
+                <p class="place__paragraph">Уеду я.</p>
+              </div>
+            </li>
+          </ul>
+        <section class="quotes"><!--Секция quotes-->
+          <div class="description">
+            <p class="description__subtitle">Люди</p>
+            <h2 class="description__title">Что говорят и&nbsp;говорили люди о&nbsp;путешествиях</h2>
+          </div>
+          <ul class="quotes__table list">
+            <li class="quotes__cell"><!--Цитата Бунина-->
+              <p class="quotes__author">Иван Бунин</p>
+              <blockquote class="quotes__text quotes__text_active">Человека делают счастливым три вещи: любовь, интересная работа и&nbsp;возможность путешествовать.</blockquote>
+            </li>
+            <li class="quotes__cell"><!--Цитата Камю-->
+              <p class="quotes__author">Альбер Камю</p>
+              <blockquote class="quotes__text">Путешествие как самая великая и&nbsp;серьезная наука помогает нам вновь обрести себя.</blockquote>
+            </li>
+            <li class="quotes__cell"><!--Норвежская пословица-->
+              <p class="quotes__author">Норвежская пословица</p>
+              <blockquote class="quotes__text">Лишь тот, кто странствует, открывает новые пути.</blockquote>
+            </li>
+            <li class="quotes__cell"><!--Цитата Захаровой-->
+              <p class="quotes__author">Мария Захарова</p>
+              <blockquote class="quotes__text">В&nbsp;принципе зарубежная поездка&nbsp;&mdash; это серьезнейшее, ответственнейшее и&nbsp;очень рискованное предприятие.</blockquote>
+            </li>
+        </section>
+      </main>
+      <footer class="footer"><!--Подвал -->
+        <div class="footer__copyright">
+          <div class="footer__column-left">
+            <h2 class="footer__year">&copy;2022</h2>
+          </div>
+          <div class="footer__separator"></div>
+          <div class="footer__column-right">
+            <p class="footer__authors">Il.Kor<br/>Gorilla.dev</p>
+          </div>
+        </div>
+        <button class="footer__button footer__button_hidden">Toggle</button>
+      </footer>
+    </div>
+  </div>
+  <script language="JavaScript" src="./script/index.js"></script>
+</body>
+</html>

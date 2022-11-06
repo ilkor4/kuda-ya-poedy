@@ -1,0 +1,7 @@
+.intro__picture {
+  width: 400px;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  align-self: center;
+  display: flex;
+}
