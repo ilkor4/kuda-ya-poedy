@@ -14,15 +14,42 @@
 <body><!--Тело-->
   <div class="wrapper"><!--Обертка-->
     <div class="root"><!--Страница-->
-      <header class="header"><!--Шапка-->
+      <header class="header header_margin_auto"><!--Шапка-->
         <nav>
           <ul class="navbar list">
             <li><a href="#" class="navbar__link" target="_blank">Мечты</a></li>
             <li><a href="#" class="navbar__link" target="_blank">Ожидания</a></li>
             <li><a href="#" class="navbar__link" target="_blank">Реальность</a></li>
-            <li class="margin-left"><a href="#" class="navbar__link" target="_blank">Пожаловаться</a></li>
+            <li class="margin-left"><a href="#" class="navbar__link active">Пожаловаться</a></li>
           </ul>
         </nav>
+        <div class="popup"><!--Попап-->
+          <form class="popup__form">
+            <svg class="popup__close" xmlns="http://www.w3.org/2000/svg">
+              <path fill="#000" d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
+            </svg>
+            <label class="popup__text popup__text_type_name" for="name">Представьтесь</label>
+            <input type="text" name="name" id="name" required placeholder="Введите имя" class="popup__input popup__input_type_name" />
+            <label class="popup__text popup__text_type_tel" for="tel">Ваш телефон</label>
+            <input type="tel" name="tel" id="tel" required placeholder="Введите телефон" class="popup__input popup__input_type_tel" />
+            <label class="popup__text popup__text_type_message" for="message">Ваше сообщение</label>
+            <textarea name="message" id="message" required placeholder="Опишите вашу проблему" class="popup__message"></textarea>
+            <button type="submit" class="popup__button">Отправить</button>
+          </form>
+        </div>
+        <div class="burger-section">
+          <svg class="burger__image" id="activator" xmlns="http://www.w3.org/2000/svg"><!--Бургер-->
+            <path d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z" />
+          </svg>
+          <nav class="burger burger_active">
+            <ul class="burger__list">
+              <li class="burger__item"><a href="#" class="burger__link">Мечты</a></li>
+              <li class="burger__item"><a href="#" class="burger__link">Ожидания</a></li>
+              <li class="burger__item"><a href="#" class="burger__link">Реальность</a></li>
+              <li class="burger__item"><a href="#" class="burger__link active">Пожаловаться</a></li>
+            </ul>
+          </nav>
+        </div>
       </header>
       <main class="content"><!--Контент-->
         <section class="intro"><!--Секция intro-->
@@ -49,7 +76,7 @@
               </div>
             </li>
             <li class="place"><!--Место – горы-->
-              <div class="place__description">
+              <div class="place__description place__description_media_mobile">
                 <h2 class="place__title">Поеду в&nbsp;горы</h2>
                 <p class="place__paragraph">Горные системы занимают 64&nbsp;% поверхности Азии, 36&nbsp;%&nbsp;&mdash; Северной Америки, 25&nbsp;%&nbsp;&mdash; Европы, 22&nbsp;%&nbsp;&mdash; Южной Америки, 17&nbsp;%&nbsp;&mdash; Австралии и&nbsp;3&nbsp;%&nbsp;&mdash; Африки. В&nbsp;целом 24&nbsp;% земной поверхности приходится на&nbsp;горы.&nbsp;10&nbsp;% всех людей живёт на&nbsp;территории гор. В&nbsp;горах берёт своё начало большинство рек Земли.</p>
               </div>
@@ -109,6 +136,7 @@
       </footer>
     </div>
   </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
   <script language="JavaScript" src="./script/index.js"></script>
 </body>
 </html>

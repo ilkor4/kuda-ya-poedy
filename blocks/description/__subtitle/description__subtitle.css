@@ -7,3 +7,9 @@
   text-transform: uppercase;
   letter-spacing: 0;
 }
+
+@media screen and (max-width: 800px) {
+  .description__subtitle {
+    text-align: center;
+  }
+}

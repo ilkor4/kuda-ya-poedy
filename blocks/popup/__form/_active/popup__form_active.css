@@ -1,0 +1,4 @@
+.popup__form_active {
+  transform: translate(-50%, -50%) scale(1);
+  transition: 0.5s all;
+}

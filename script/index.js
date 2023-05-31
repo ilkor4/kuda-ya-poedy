@@ -1,3 +1,35 @@
+// Burger sectinon ======================================================
+var openBurger = document.getElementById("activator");
+var animationBurger = gsap.timeline({ defaults: { ease: "power2.inOut" } });
+var toggle = false;
+animationBurger.to(".activator", {
+  background: "#805ad5",
+  borderRadius: "5em 0 0 5em",
+});
+animationBurger.to(
+  ".burger_active",
+  {
+    clipPath: "ellipse(100% 100% at 50% 50%)",
+  },
+  "-=.5"
+);
+animationBurger.to(
+  ".burger__svg_active",
+  {
+    opacity: 1,
+    transform: "translateX(0)",
+    stagger: 0.05,
+  },
+  "-=.5"
+);
+animationBurger.pause();
+openBurger.addEventListener("click", () => {
+  toggle = !toggle;
+  if (toggle ? animationBurger.play() : animationBurger.reverse());
+});
+
+
+
 // Logo section ===================================================
 document.querySelector(".footer__button").onclick = function () {
   document
@@ -16,7 +48,6 @@ document.querySelector(".footer__button").onclick = function () {
     .querySelector(".footer__authors")
     .classList.toggle("footer__authors_active");
 };
-
 //Quotes section ====================================================
 function onEntry(entry) {
   entry.forEach((change) => {
@@ -39,7 +70,7 @@ for (let elm of elements) {
 // Popup section ====================================
 let popupBg = document.querySelector(".popup");
 let popup = document.querySelector(".popup__form");
-let openPopupButtons = document.querySelectorAll(".navbar__link_active");
+let openPopupButtons = document.querySelectorAll(".active");
 let closePopupButton = document.querySelector(".popup__close");
 openPopupButtons.forEach((button) => {
   button.addEventListener("click", (e) => {

@@ -1,0 +1,21 @@
+.popup__button {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  background: #000;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s all;
+  border-radius: 10px;
+}
+
+.popup__button:hover {
+  background: #fff;
+  color: #000;
+  transition: 0.5s all;
+}

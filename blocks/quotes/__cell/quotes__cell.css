@@ -3,3 +3,16 @@
   opacity: 0;
   transform: translateY(20px);
 }
+
+.quotes__cell:not(:last-of-type) {
+  padding-right: 15px;
+}
+
+@media screen and (max-width: 900px) {
+  .quotes__cell {
+    justify-self: center;
+  }
+  .quotes__cell:not(:last-of-type) {
+    padding: 0;
+  }
+}

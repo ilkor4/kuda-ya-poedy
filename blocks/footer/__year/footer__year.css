@@ -5,8 +5,20 @@
   vertical-align: middle;
   font-family: Tahoma;
   font-weight: 900;
-  font-size: 7rem;
+  font-size: 112px;
   color: #333;
   transform: translateX(100%);
   transition: transform 0.6s ease-out 0.1s;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__year {
+    font-size: 96px;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .footer__year {
+    font-size: 30px;
+  }
 }

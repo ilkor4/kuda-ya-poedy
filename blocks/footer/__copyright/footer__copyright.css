@@ -6,5 +6,12 @@
   left: 47.5%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 700px;
+  max-width: 700px;
+}
+
+@media screen and (max-width: 568px) {
+  .footer__copyright {
+    max-width: 100%;
+    overflow: hidden;
+  }
 }

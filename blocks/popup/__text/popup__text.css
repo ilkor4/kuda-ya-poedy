@@ -1,0 +1,9 @@
+.popup__text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #cfd0d3;
+}

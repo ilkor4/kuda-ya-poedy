@@ -1,5 +1,5 @@
 .footer__column-right {
-  width: 50%;
+  max-width: 300px;
   overflow: hidden;
   display: flex;
   align-items: center;

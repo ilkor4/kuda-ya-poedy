@@ -5,3 +5,14 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__description {
+    padding: 45px 15px 60px 40px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .place__description {
+    text-align: center;
+  }
+}

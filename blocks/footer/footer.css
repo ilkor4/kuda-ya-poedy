@@ -1,5 +1,6 @@
 .footer {
   background-color: #fecea9;
-  min-height: 500px;
+  min-height: 60vh;
   position: relative;
+  overflow: hidden;
 }

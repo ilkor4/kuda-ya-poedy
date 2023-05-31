@@ -1,0 +1,17 @@
+.popup__message {
+  resize: none;
+  width: 100%;
+  height: 150px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #cfd0d3;
+  font-size: 18px;
+  padding-top: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.popup__message:focus {
+  border-bottom: 1px solid #000;
+}

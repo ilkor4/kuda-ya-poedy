@@ -1,44 +1,48 @@
 
 @font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("Inter-Regular.woff2?v=3.19") format("woff2"),
-       url("Inter-Regular.woff?v=3.19") format("woff");
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialised;
+	font-family: 'Circe';
+	src: url('Circe-Regular.eot');
+	src: local('Circe'), local('Circe-Regular'),
+		url('Circe-Regular.eot?#iefix') format('embedded-opentype'),
+		url('Circe-Regular.woff') format('woff'),
+		url('Circe-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialised;
+	}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('Circe-Bold.eot');
+	src: local('Circe Bold'), local('Circe-Bold'),
+		url('Circe-Bold.eot?#iefix') format('embedded-opentype'),
+		url('Circe-Bold.woff') format('woff'),
+		url('Circe-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialised;
 }
 
 @font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url("Inter-Bold.woff2?v=3.19") format("woff2"),
-       url("Inter-Bold.woff?v=3.19") format("woff");
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialised;
+	font-family: 'Circe';
+	src: url('Circe-ExtraBold.eot');
+	src: local('Circe ExtraBold'), local('Circe-ExtraBold'),
+		url('Circe-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('Circe-ExtraBold.woff') format('woff'),
+		url('Circe-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialised;
 }
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url("Inter-Black.woff2?v=3.19") format("woff2"),
-       url("Inter-Black.woff?v=3.19") format("woff");
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialised;
-}
-
-

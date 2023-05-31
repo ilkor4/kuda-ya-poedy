@@ -15,6 +15,18 @@
 @import url(../blocks/margin-left/margin-left.css);
 @import url(../blocks/navbar/__link/navbar__link.css);
 
+/* Подключил стили к попапу */
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__form/popup__form.css);
+@import url(../blocks/popup/__form/_active/popup__form_active.css);
+@import url(../blocks/popup/_active/popup_active.css);
+@import url(../blocks/popup/__input/popup__input.css);
+@import url(../blocks/popup/__text/popup__text.css);
+@import url(../blocks/popup/__text/_active/popup__text_active.css);
+@import url(../blocks/popup/__message/popup__message.css);
+@import url(../blocks/popup/__close/popup__close.css);
+@import url(../blocks/popup/__button/popup__button.css);
+
 /* Подключил стили к контенту */
 @import url(../blocks/content/content.css);
 
@@ -27,12 +39,12 @@
 @import url(../blocks/intro/__image/intro__image.css);
 
 /* Подключил стили к секции places */
-@import url(../blocks/scale/scale.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__picture/place__picture.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__decription/place__description.css);
+@import url(../blocks/place/__decription/_media/place__description_media_mobile.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 

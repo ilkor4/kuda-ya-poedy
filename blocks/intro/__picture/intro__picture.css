@@ -5,3 +5,16 @@
   align-self: center;
   display: flex;
 }
+
+@media screen and (max-width: 800px) {
+  .intro__picture {
+    width: 500px;
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 584px) {
+  .intro__picture {
+    width: 100%;
+  }
+}
