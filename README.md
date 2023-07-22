@@ -24,5 +24,5 @@ ________________________________
 # Cсылка gh - https://ilkor4.github.io/kuda-ya-poedy/
 
 <h2>Над проектом работал:</h2>
-<h3><a href="https://github.com/ilkor4" target="_blank">Il.kor</a></h3># Проект: Куда я поеду
+<h3><a href="https://github.com/ilkor4" target="_blank">Il.kor</a></h3>
 
